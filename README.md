@@ -1,4 +1,4 @@
-# scratch-pay
+# Scratch Pay Challenge
 
 This challenge is divided in two parts.
 
