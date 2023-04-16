@@ -25,15 +25,19 @@ It uses the Jest testing framework and the Axios library for making HTTP request
 
 To run Tests
 
+you have to go to application-tests folder, start the application then run below:
+
 ```
 yarn test
 ```
 
-### Tests using Cucumeber
+### Tests using Cucumber
 
-The tests are written in cucumber located in the features folder and step definations under features/ste_definations and can be run as part of CI/CD.
+The tests are written in cucumber located in the features folder and step definations under features/step_definations and can be run as part of CI/CD.
 
-To run tests:
+To run Tests
+
+you have to go to application-tests folder, start the application then run below:
 
 ```
 yarn test:cucumber
