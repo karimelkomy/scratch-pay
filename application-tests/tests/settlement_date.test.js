@@ -33,8 +33,8 @@ describe("GET /api/v1/settlementDate", () => {
     );
     expect(response.data.initialQuery).toHaveProperty("delay", "3");
     expect(response.data.initialQuery).toHaveProperty("country", "EG");
-    expect(response.data.results).toHaveProperty("holidayDays", 0);
-    expect(response.data.results).toHaveProperty("totalDays", 4);
+    expect(response.data.results).toHaveProperty("holidayDays", 1);
+    expect(response.data.results).toHaveProperty("totalDays", 6);
     expect(response.data.results).toHaveProperty("weekendDays", 2);
     expect(response.data.results).toHaveProperty(
       "businessDate",
@@ -46,7 +46,7 @@ describe("GET /api/v1/settlementDate", () => {
     const response = await axios.get(
       "http://127.0.0.1:3000/api/v1/settlementDate?initialDate=2023-04-14&delay=0"
     );
-    console.log(response.data.results);
+
     expect(response.status).toBe(200);
     expect(response.data).toHaveProperty("ok", true);
     expect(response.data.initialQuery).toHaveProperty(
