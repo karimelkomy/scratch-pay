@@ -1,10 +1,3 @@
 # Scratch Pay Challenge
 
-This challenge is divided in two parts.
-
-## Application tests
-Navigate to application-tests for more details.
-
-## API tests
-Navigate to api-tests for more details.
-
+This QA challenge is divided into the two parts. and more details about teh implementation, setup and run can be found by navigating to relevant folder.
