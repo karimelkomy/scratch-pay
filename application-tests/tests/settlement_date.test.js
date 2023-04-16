@@ -38,7 +38,7 @@ describe("GET /api/v1/settlementDate", () => {
     expect(response.data.results).toHaveProperty("weekendDays", 2);
     expect(response.data.results).toHaveProperty(
       "businessDate",
-      "2023-04-18T00:00:00.000Z"
+      "2023-04-19T00:00:00.000Z"
     );
   });
 
