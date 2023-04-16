@@ -3,8 +3,8 @@
 This challenge is divided in two parts.
 
 ## Application tests
-Please navigate to application-tests
+Navigate to application-tests for more details.
 
 ## API tests
-Please navigate to api-tests
+Navigate to api-tests for more details.
 
