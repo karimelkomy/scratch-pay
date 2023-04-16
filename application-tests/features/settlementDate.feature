@@ -12,7 +12,7 @@ Feature: Settlement Date API
     Then the response status code should be 200
     And the response should indicate success
     And the response should contain initialQuery with initialDate: "2023-04-13", delay: "3", and country: "EG"
-    And the response should contain results with holidayDays: 0, totalDays: 4, weekendDays: 2, and businessDate: "2023-04-18T00:00:00.000Z"
+    And the response should contain results with holidayDays: 1, totalDays: 6, weekendDays: 2, and businessDate: "2023-04-19T00:00:00.000Z"
 
   Scenario: Delay is 0
     Given the initialDate "2023-04-14", and delay 0
